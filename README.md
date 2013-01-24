@@ -36,8 +36,19 @@ summary.on('bullet', function(date, task) {
   console.log(date.underline.cyan, task);
 });
 
-summary.go();
+summary.on('workspace', function(line) {
+  console.log(line);
+});
 
+summary.on('user', function(line) {
+  console.log(line);
+});
+
+summary.on('task', function(line) {
+  console.log(line);
+});
+
+summary.go();
 </pre>
 
 
