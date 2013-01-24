@@ -32,6 +32,7 @@ npm install asana-summary
 > asana-summary
 </pre>
 
+## Make the scripts
 <pre>
 var summary = require("asana-summary")()
   , colors = require("colors")
