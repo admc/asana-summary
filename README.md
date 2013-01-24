@@ -23,6 +23,13 @@ npm install asana-summary
 > export asanaKey='asana key goes here'
 </pre>
 
+## Just run it
+<pre>
+> sudo npm install asana-summary -g
+> source your bin (> source ~/.zshrc for example, or open a new tab)
+> asana-summary
+</pre>
+
 <pre>
 var summary = require("asana-summary")()
   , colors = require("colors")
